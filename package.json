@@ -1,0 +1,23 @@
+{
+  "name": "verbwire-wallet",
+  "version": "0.1.0",
+  "description": "Verbwire Wallet Connectors",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verbwire/verbwire-wallet.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Bojarski",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/units": "^5.7.0",
+    "ethers": "^6.6.0",
+    "eventemitter3": "^5.0.1",
+    "prop-types": "^15.8.1",
+    "viem": "^1.0.7"
+  }
+}

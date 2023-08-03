@@ -89,6 +89,7 @@ import {
     metaMaskWallet,
 } from '@rainbow-me/rainbowkit/wallets';
 import { VerbwireWalletRainbowkit } from 'verbwire-wallet'
+import { goerli } from 'wagmi/chains';
 
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   [
